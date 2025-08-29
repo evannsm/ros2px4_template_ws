@@ -1,0 +1,13 @@
+[submodule "src/test_logger"]
+	path = src/test_logger
+	url = git@github.com:evannsm/test_logger.git
+[submodule "src/mocap4r2_msgs"]
+	path = src/mocap4r2_msgs
+	url = git@github.com:evannsm/mocap4r2_msgs.git
+[submodule "src/ROS2Logger"]
+	path = src/ROS2Logger
+	url = git@github.com:evannsm/ROS2Logger.git
+[submodule "src/px4_msgs"]
+	path = src/px4_msgs
+	url = https://github.com/PX4/px4_msgs.git
+	branch = release/1.15
