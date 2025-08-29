@@ -51,7 +51,7 @@ ros2px4 pkg create --name my_new_pkg --node-name my_node
 # Overwrite an existing target directory if needed
 ros2px4 pkg create --name my_new_pkg --force
 ```
-
+````
 
 # 🛠️ What the generator does
 
@@ -68,7 +68,7 @@ ros2px4 pkg create --name my_new_pkg --force
 
 ### 🧭 Repository Layout (after setup)
 
-```text
+````text
 ros2px4_template_ws/
 ├── src/
 │   ├── px4_msgs         # submodule (e.g., release/1.15)
@@ -81,17 +81,17 @@ ros2px4_template_ws/
     ├── ros2px4          # CLI (subcommand: pkg create)
     └── new_pkg_from_template.py
 
-````
 
 ### 🛠️ Troubleshooting
 
-- **`ros2px4: command not found`**  
+- **`ros2px4: command not found`**
   Use `./tools/ros2px4 …` or add it to PATH (see Step 3B).
 
 - **`Permission denied` when running `ros2px4`**
   ```bash
   chmod +x tools/ros2px4
-  ```
+````
+
 - **`Permission denied` when running `ros2px4`**
 
   ```bash
