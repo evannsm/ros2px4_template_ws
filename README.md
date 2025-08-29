@@ -55,8 +55,6 @@ ros2px4 pkg create --name my_new_pkg --node-name my_node
 ros2px4 pkg create --name my_new_pkg --force
 ```
 
-`````
-
 # 🛠️ What the generator does
 
 - **Copies** `src/template_pkg/` → `src/<name>/`
@@ -72,7 +70,7 @@ ros2px4 pkg create --name my_new_pkg --force
 
 ### 🧭 Repository Layout (after setup)
 
-````text
+```text
 ros2px4_template_ws/
 ├── src/
 │   ├── px4_msgs         # submodule (e.g., release/1.15)
@@ -84,7 +82,7 @@ ros2px4_template_ws/
 └── tools/
     ├── ros2px4          # CLI (subcommand: pkg create)
     └── new_pkg_from_template.py
-
+```
 
 ### 🛠️ Troubleshooting
 
@@ -94,8 +92,7 @@ ros2px4_template_ws/
 - **`Permission denied` when running `ros2px4`**
   ```bash
   chmod +x tools/ros2px4
-`````
-
+  ```
 - **`Permission denied` when running `ros2px4`**
 
   ```bash
