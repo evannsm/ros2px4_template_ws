@@ -21,6 +21,7 @@ mkdir my_new_ws
 
 ````bash
 git clone git@github.com:evannsm/ros2px4_template_ws.git --recursive
+```
 
 3. Add CLI tools to path
 ```bash
